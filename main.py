@@ -78,6 +78,7 @@ def logData(querystring, postdata, ip,raw):
     data['src_port'] = srcport
     data['dest_ip'] = hostip
     data['dest_port'] = hostport
+    data['protocol'] = "http"
     data2 = {}
     data2['name'] = "Elasticpot"
     data2['nodeid'] = nodeid
