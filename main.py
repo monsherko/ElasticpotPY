@@ -94,6 +94,7 @@ def logData(querystring, postdata, ip,raw):
             with open(jsonpath, 'a') as outfile:
                 json.dump(data, outfile)
                 outfile.write('\n')
+	
         except:
 	    pass
 
