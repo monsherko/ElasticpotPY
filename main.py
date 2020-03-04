@@ -90,7 +90,7 @@ def logData(querystring, postdata, ip,raw):
 
     # Send to json logfile
     if os.path.isfile(configfile) and ewssender.upper() == "TRUE":
-        try
+        try:
             with open(jsonpath, 'a') as outfile:
                 json.dump(data, outfile)
                 outfile.write('\n')
