@@ -96,7 +96,7 @@ def logData(querystring, postdata, ip,raw):
                 outfile.write('\n')
 	
         except:
-	    i = 0
+            pass
     else:
         if (username == None or token == None):
             print("No credentials found in config file.")
